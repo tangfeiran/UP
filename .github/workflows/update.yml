@@ -28,4 +28,4 @@ jobs:
         run: wget https://edgetunnel.tangfeiran.eu.org/8f63e4b6-65f1-4b64-ab74-a89e80e154d4?clash
         
       - name: push
-        uses: ad-m/github-push-action@v0.6.0
+        run: git push

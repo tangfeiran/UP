@@ -26,6 +26,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: wget https://edgetunnel.tangfeiran.eu.org/8f63e4b6-65f1-4b64-ab74-a89e80e154d4?clash
-        
+      - name: add
+        run: git add .
+      - name: commit
+        run: git commit -am "xxx"
       - name: push
         run: git push
